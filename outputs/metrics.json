@@ -1,0 +1,33 @@
+{
+  "users": {
+    "ad": 564577,
+    "psa": 23524
+  },
+  "conversions": {
+    "ad": 14423,
+    "psa": 420
+  },
+  "test": {
+    "treatment_rate": 0.025547,
+    "control_rate": 0.017854,
+    "absolute_lift": 0.007692,
+    "relative_lift": 0.430851,
+    "z": 7.370078,
+    "p_value_two_sided": 0.0,
+    "ci95_absolute": [
+      0.005951,
+      0.009434
+    ]
+  },
+  "incremental_conversions_estimate": 4343,
+  "sample_ratio_check": {
+    "expected_share_treatment": 0.5,
+    "observed_share_treatment": 0.96,
+    "chi_square": 497768.8,
+    "mismatch_at_p_0_001": true
+  },
+  "power": {
+    "users_per_arm_for_0_25pp_mde_at_psa_baseline": 47065,
+    "users_per_arm_for_0_5pp_mde_at_psa_baseline": 12520
+  }
+}
